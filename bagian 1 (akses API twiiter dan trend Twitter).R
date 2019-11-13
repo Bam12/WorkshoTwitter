@@ -7,11 +7,11 @@ library(sigmajs) # Untuk memvisualisasikan graph/network
 library(dplyr)
 
 
-create_token(app = "Text-mining-pram",
-             consumer_key = "eD24Kf2yL1tltoVCcOa8nCgom",
-             consumer_secret = "uQR4B7SWerCoiGS9IdqQm3OlGO0R7pBBBLaCIMppTy1wj9vEQt",
-             access_token = "uQR4B7SWerCoiGS9IdqQm3OlGO0R7pBBBLaCIMppTy1wj9vEQt",
-             access_secret = "689VvGRz7Xt7bfRikMgXV4njjbo1Sf4Bj8UDxckv2sVwq")
+create_token(app = "nama-apps",
+             consumer_key = "isi dengan konsumer key",
+             consumer_secret = "isi dengan konsumer secret",
+             access_token = "isi dengan access_token",
+             access_secret = "isi dengan access_secret ")
 
 #Melihat Trending Topics Berdasarkan Negara
 trends_available()
